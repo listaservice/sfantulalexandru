@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Mail, MapPin, HandHeart, Phone } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 import { SiteHeader } from "@/components/site/header";
 import { SiteFooter } from "@/components/site/footer";
 import { PageHero } from "@/components/site/page-hero";
@@ -22,11 +22,11 @@ export default function ContactPage() {
               Hai să <em className="font-serif italic font-medium text-gold">vorbim</em>
             </>
           }
-          subtitle="Pentru donații, voluntariat, parteneriate sau rugăciune — suntem aici."
+          subtitle="Pentru donații, parteneriate sau rugăciune — suntem aici."
         />
 
         <section className="py-16 md:py-20">
-          <div className="max-w-7xl mx-auto px-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="max-w-7xl mx-auto px-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white border border-[#E8E2D8] rounded-2xl p-8">
               <div className="size-12 rounded-xl bg-gold-pale flex items-center justify-center mb-5">
                 <MapPin className="size-5 text-gold" />
@@ -69,21 +69,6 @@ export default function ContactPage() {
                   className="text-ink/70 hover:text-gold transition-colors block break-all"
                 >
                   ivanalexandru@yahoo.com
-                </a>
-              </p>
-            </div>
-
-            <div className="bg-white border border-[#E8E2D8] rounded-2xl p-8">
-              <div className="size-12 rounded-xl bg-gold-pale flex items-center justify-center mb-5">
-                <HandHeart className="size-5 text-gold" />
-              </div>
-              <h3 className="font-semibold text-ink mb-2">Voluntariat</h3>
-              <p className="text-sm leading-relaxed">
-                <a
-                  href="mailto:voluntar@sfantulalexandru.ro"
-                  className="text-ink/70 hover:text-gold transition-colors block break-all"
-                >
-                  voluntar@sfantulalexandru.ro
                 </a>
               </p>
             </div>
