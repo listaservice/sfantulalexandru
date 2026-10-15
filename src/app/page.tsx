@@ -285,10 +285,10 @@ export default function HomePage() {
               </ul>
             </div>
             <div className="relative">
-              <div className="relative aspect-[16/7] rounded-t-2xl overflow-hidden -mb-6">
+              <div className="relative aspect-[16/9] rounded-t-2xl overflow-hidden -mb-6">
                 <Image
-                  src="/images/anunt-luxab.jpg"
-                  alt="Vârstnicii căminului Luxab la slujbă"
+                  src="/images/educatie-100.webp"
+                  alt="Copiii sprijiniți de proiectul „Educația: cheia spre viitor”"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
