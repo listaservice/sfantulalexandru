@@ -148,15 +148,15 @@ export default function CineSuntemPage() {
               <div className="bg-white border border-[#E8E2D8] rounded-2xl p-8">
                 <div className="relative size-20 rounded-full overflow-hidden mb-5 border-2 border-gold/40">
                   <Image
-                    src="/images/pr-ivan.jpg"
-                    alt="Pr. Ioan Alexandru Ivan"
+                    src="/images/pr-damaschin.webp"
+                    alt="Pr. Damaschin Corneliu"
                     fill
                     className="object-cover object-top"
                     sizes="80px"
                   />
                 </div>
-                <h3 className="text-lg font-semibold text-ink">Pr. Ioan Alexandru Ivan</h3>
-                <p className="text-sm text-gold font-semibold mt-1">Președintele Asociației · Slujitor al capelei</p>
+                <h3 className="text-lg font-semibold text-ink">Pr. Damaschin Corneliu</h3>
+                <p className="text-sm text-gold font-semibold mt-1">Preot · Slujitor al capelei</p>
                 <p className="text-sm text-ink/60 leading-relaxed mt-4">
                   Preot de caritate, responsabil cu tot ceea ce se întâmplă la
                   cămin. Conduce proiectele și îngrijirea duhovnicească a
@@ -164,14 +164,21 @@ export default function CineSuntemPage() {
                 </p>
               </div>
               <div className="bg-white border border-[#E8E2D8] rounded-2xl p-8">
-                <div className="size-14 rounded-full bg-gold-pale flex items-center justify-center mb-5">
-                  <Heart className="size-6 text-gold" />
+                <div className="relative size-20 rounded-full overflow-hidden mb-5 border-2 border-gold/40">
+                  <Image
+                    src="/images/diacon-sandu.webp"
+                    alt="Diac. Sandu Teodor Marian"
+                    fill
+                    className="object-cover object-top"
+                    sizes="80px"
+                  />
                 </div>
-                <h3 className="text-lg font-semibold text-ink">Florina Ivan</h3>
-                <p className="text-sm text-gold font-semibold mt-1">Directoarea Centrului Luxab</p>
+                <h3 className="text-lg font-semibold text-ink">Diac. Sandu Teodor Marian</h3>
+                <p className="text-sm text-gold font-semibold mt-1">Diacon · Slujitor al capelei</p>
                 <p className="text-sm text-ink/60 leading-relaxed mt-4">
-                  Coordonează activitatea căminului și inițiativele prin care
-                  vârstnicii și copiii se întâlnesc și se îmbogățesc reciproc.
+                  Diacon al capelei Luxab, alături de vârstnici și de copiii
+                  care vin în vizită — în slujbe, proiecte și în viața de zi cu
+                  zi a comunității.
                 </p>
               </div>
             </div>
