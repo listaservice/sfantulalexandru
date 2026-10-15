@@ -33,7 +33,7 @@ export function PageHero({
           )}
         </div>
         <Image
-          src="/brand/sfalexandru.png"
+          src="/brand/icoana-sfinti.png"
           alt="Icoana Sfântului Ierarh Alexandru și a Sfintei Cuvioase Parascheva"
           width={230}
           height={230}

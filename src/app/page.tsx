@@ -134,7 +134,7 @@ export default function HomePage() {
               className="flex justify-center mt-4 lg:mt-0"
             >
               <Image
-                src="/brand/sfalexandru.png"
+                src="/brand/icoana-sfinti.png"
                 alt="Icoana Sfântului Ierarh Alexandru și a Sfintei Cuvioase Parascheva"
                 width={460}
                 height={460}
