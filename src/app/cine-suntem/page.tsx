@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { Compass, Eye, Heart } from "lucide-react";
+import { Compass, Eye } from "lucide-react";
 import { SiteHeader } from "@/components/site/header";
 import { SiteFooter } from "@/components/site/footer";
 import { PageHero } from "@/components/site/page-hero";
