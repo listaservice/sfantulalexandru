@@ -43,14 +43,17 @@ export default function DoneazaPage() {
                 vârstnici.
               </p>
               <div className="mt-6 bg-gold-pale rounded-xl p-4 text-sm">
-                <div className="flex items-center gap-2 font-semibold text-ink mb-1">
+                <div className="flex items-center gap-2 font-semibold text-ink mb-2">
                   <Landmark className="size-4 text-gold" /> Cont donații
                 </div>
-                <p className="text-ink/60 text-xs">
-                  IBAN disponibil la cerere — scrie-ne la{" "}
-                  <a href="mailto:ivanalexandru@yahoo.com" className="text-gold font-semibold">
-                    ivanalexandru@yahoo.com
-                  </a>
+                <p className="text-ink font-mono text-[13px] font-semibold tracking-wide">
+                  RO03BTRLRONCRT0T1501E601
+                </p>
+                <p className="text-ink/60 text-xs mt-1.5 leading-relaxed">
+                  Asociația Creștină Sf. Ierarh Alexandru și Sf. Cuvioasă
+                  Parascheva
+                  <br />
+                  Banca Transilvania
                 </p>
               </div>
             </div>
@@ -88,7 +91,7 @@ export default function DoneazaPage() {
                 darurilor, la evenimentele capelei.
               </p>
               <a
-                href="mailto:voluntar@sfantulalexandru.ro"
+                href="mailto:ivanalexandru@yahoo.com?subject=Voluntariat"
                 className="mt-6 inline-flex items-center justify-center gap-2 border border-ink text-ink px-6 py-3 rounded-full font-bold text-sm hover:bg-ink hover:text-white transition-all"
               >
                 Devino voluntar →
