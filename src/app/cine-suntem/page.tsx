@@ -144,7 +144,24 @@ export default function CineSuntemPage() {
                 Cei care poartă lucrarea mai departe
               </h2>
             </div>
-            <div className="mt-12 grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <div className="mt-12 grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+              <div className="bg-white border border-[#E8E2D8] rounded-2xl p-8">
+                <div className="relative size-20 rounded-full overflow-hidden mb-5 border-2 border-gold/40">
+                  <Image
+                    src="/images/pr-ivan.webp"
+                    alt="Pr. Ioan Alexandru Ivan"
+                    fill
+                    className="object-cover object-top"
+                    sizes="80px"
+                  />
+                </div>
+                <h3 className="text-lg font-semibold text-ink">Pr. Ioan Alexandru Ivan</h3>
+                <p className="text-sm text-gold font-semibold mt-1">Președintele Asociației</p>
+                <p className="text-sm text-ink/60 leading-relaxed mt-4">
+                  Preot de caritate, fondatorul lucrării de la Luxab. Conduce
+                  proiectele și îngrijirea duhovnicească a vârstnicilor.
+                </p>
+              </div>
               <div className="bg-white border border-[#E8E2D8] rounded-2xl p-8">
                 <div className="relative size-20 rounded-full overflow-hidden mb-5 border-2 border-gold/40">
                   <Image
