@@ -33,7 +33,7 @@ export function SiteFooter() {
                 className="rounded-full"
               />
               <span className="font-heading font-semibold text-ink text-[15px] leading-tight">
-                Asociația Sf. Ierarh Alexandru
+                Asociația Creștină Sf. Ierarh Alexandru
                 <span className="block font-sans font-normal text-[11px] text-ink/60">
                   și Sfânta Cuvioasă Parascheva
                 </span>
@@ -119,8 +119,8 @@ export function SiteFooter() {
 
         <div className="pt-6 border-t border-ink/10 text-center">
           <span className="text-xs text-ink/50">
-            © {new Date().getFullYear()} Asociația Sf. Ierarh Alexandru și Sf.
-            Cuvioasă Parascheva. Toate drepturile rezervate.
+            © {new Date().getFullYear()} Asociația Creștină Sf. Ierarh
+            Alexandru și Sf. Cuvioasă Parascheva. Toate drepturile rezervate.
           </span>
         </div>
       </div>

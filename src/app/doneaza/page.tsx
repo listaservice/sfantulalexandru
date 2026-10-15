@@ -9,7 +9,7 @@ import { PageHero } from "@/components/site/page-hero";
 export const metadata: Metadata = {
   title: "Donează",
   description:
-    "Susține Asociația Sf. Alexandru — donații, redirecționarea a 3.5% din impozit și voluntariat.",
+    "Susține Asociația Creștină Sf. Alexandru — donații, redirecționarea a 3.5% din impozit și voluntariat.",
 };
 
 export default function DoneazaPage() {

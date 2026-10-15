@@ -95,7 +95,8 @@ export default function HomePage() {
                 și transformă.
               </h1>
               <p className="mt-7 text-lg text-ink/60 leading-relaxed max-w-xl">
-                Asociația Sf. Ierarh Alexandru și Sf. Cuvioasă Parascheva.
+                Asociația Creștină Sf. Ierarh Alexandru și Sf. Cuvioasă
+                Parascheva.
                 Construim o comunitate în care sărbătoarea devine faptă, iar
                 fapta devine speranță — pentru vârstnici, pentru copii, pentru
                 cei vulnerabili.
@@ -422,8 +423,8 @@ export default function HomePage() {
                 Transformă impozitul tău în speranță
               </h2>
               <p className="mt-5 text-ink/60 leading-relaxed">
-                Redirecționează 3.5% din impozitul pe venit către Asociația Sf.
-                Alexandru — un gest simplu care devine rechizite, ghiozdane și
+                Redirecționează 3.5% din impozitul pe venit către Asociația
+                Creștină Sf. Alexandru — un gest simplu care devine rechizite, ghiozdane și
                 clipe de bucurie pentru copiii aflați în dificultate.
               </p>
             </div>

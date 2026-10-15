@@ -9,7 +9,7 @@ import { PageHero } from "@/components/site/page-hero";
 export const metadata: Metadata = {
   title: "Cine suntem",
   description:
-    "Asociația „Sfântul Ierarh Alexandru și Sfânta Cuvioasă Parascheva” — misiunea, viziunea și valorile noastre.",
+    "Asociația Creștină „Sfântul Ierarh Alexandru și Sfânta Cuvioasă Parascheva” — misiunea, viziunea și valorile noastre.",
 };
 
 const values = [
@@ -50,8 +50,9 @@ export default function CineSuntemPage() {
             </div>
             <div className="space-y-5 text-ink/70 text-[17px] leading-relaxed">
               <p className="text-xl text-ink font-heading font-medium">
-                Asociația Sf. Ierarh Alexandru și Sf. Cuvioasă Parascheva
-                reprezintă punctul de întâlnire dintre viziune și acțiune
+                Asociația Creștină Sf. Ierarh Alexandru și Sf. Cuvioasă
+                Parascheva reprezintă punctul de întâlnire dintre viziune și
+                acțiune
                 concretă în sprijinul celor vulnerabili.
               </p>
               <p>

@@ -33,7 +33,7 @@ export function SiteHeader() {
               priority
             />
             <span className="font-heading font-semibold text-ink text-[15px] leading-tight">
-              Asociația Sf. Ierarh Alexandru
+              Asociația Creștină Sf. Ierarh Alexandru
               <span className="block font-sans font-normal text-[11px] text-ink/60">
                 și Sfânta Cuvioasă Parascheva
               </span>

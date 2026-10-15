@@ -7,7 +7,7 @@ import { PageHero } from "@/components/site/page-hero";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact Asociația Sf. Ierarh Alexandru — Str. Occidentului 25, Sector 1, București, în interiorul centrului de îngrijire LUXAB.",
+    "Contact Asociația Creștină Sf. Ierarh Alexandru — Str. Occidentului 25, Sector 1, București, în interiorul centrului de îngrijire LUXAB.",
 };
 
 export default function ContactPage() {

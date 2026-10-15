@@ -26,8 +26,8 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL("https://sfantulalexandru.ro"),
   title: {
-    default: "Asociația Sfântul Ierarh Alexandru și Sfânta Cuvioasă Parascheva",
-    template: "%s | Asociația Sf. Alexandru",
+    default: "Asociația Creștină Sfântul Ierarh Alexandru și Sfânta Cuvioasă Parascheva",
+    template: "%s | Asociația Creștină Sf. Alexandru",
   },
   description:
     "Asociație filantropică din București — Capela „Sfântul Ierarh Alexandru” de la Căminul Luxab, proiecte pentru copii defavorizați și îngrijire duhovnicească a vârstnicilor.",
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
     "voluntariat",
     "sector 1",
   ],
-  authors: [{ name: "Asociația Sf. Ierarh Alexandru" }],
+  authors: [{ name: "Asociația Creștină Sf. Ierarh Alexandru" }],
   openGraph: {
-    title: "Asociația Sfântul Ierarh Alexandru și Sfânta Cuvioasă Parascheva",
+    title: "Asociația Creștină Sfântul Ierarh Alexandru și Sfânta Cuvioasă Parascheva",
     description:
       "Mâinile noastre ajută, Dumnezeu vindecă și transformă.",
     locale: "ro_RO",
