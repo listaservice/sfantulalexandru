@@ -131,14 +131,14 @@ export default function HomePage() {
               initial={{ opacity: 0, scale: 0.92 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="flex justify-center"
+              className="flex justify-center mt-4 lg:mt-0"
             >
               <Image
                 src="/brand/sfalexandru.png"
                 alt="Icoana Sfântului Ierarh Alexandru și a Sfintei Cuvioase Parascheva"
                 width={460}
                 height={460}
-                className="drop-shadow-2xl w-[240px] h-auto lg:w-[460px]"
+                className="drop-shadow-2xl w-[170px] h-auto lg:w-[460px]"
                 priority
               />
             </motion.div>
