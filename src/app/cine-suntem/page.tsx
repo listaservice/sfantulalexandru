@@ -13,12 +13,12 @@ export const metadata: Metadata = {
 };
 
 const values = [
-  { title: "Compasiune", text: "Iubirea divină ne inspiră să privim fiecare persoană cu demnitate și respect, cultivând în noi o compasiune autentică care depășește simpla milă și recunoaște valoarea infinită a fiecărei ființe umane." },
-  { title: "Unitate", text: "În spiritul comuniunii creștine, Dumnezeu ne ajută să construim o echipă unită prin valori comune, depășind diferențele și lucrând împreună în armonie pentru binele celor pe care îi servim." },
+  { title: "Dragoste creștină", text: "Iubirea față de aproapele ne îndeamnă să oferim grijă, respect și sprijin persoanelor vârstnice și celor aflați în suferință." },
+  { title: "Comuniune", text: "Credința și rugăciunea ne unesc în slujirea aproapelui și în cultivarea legăturilor sufletești dintre cei aflați în grija centrelor." },
   { title: "Înțelepciune", text: "Dumnezeu ne călăuzește în luarea deciziilor importante, oferindu-ne discernământul necesar pentru a alege cele mai potrivite căi de acțiune și pentru a folosi cu responsabilitate resursele încredințate." },
-  { title: "Putere", text: "Prin credință primim puterea de a persevera în fața obstacolelor, de a continua când drumul este greu și de a găsi resurse interioare pentru a depăși momentele de încercare din activitatea noastră." },
+  { title: "Statornicie", text: "Rămânem statornici în credință și în slujirea aproapelui, oferind sprijin și mângâiere celor aflați în încercare." },
   { title: "Inspirație", text: "Dumnezeu ne oferă viziunea și inspirația pentru proiectele noastre, deschizându-ne ochii spre nevoile reale ale comunității și ajutându-ne să vedem potențialul de transformare chiar și în cele mai dificile situații." },
-  { title: "Speranță", text: "Credința ne umple de speranță neclintită chiar și în cele mai dificile situații, dându-ne convingerea că transformarea este posibilă și că fiecare efort al nostru, oricât de mic, contribuie la un bine mai mare în planul divin." },
+  { title: "Nădejde", text: "Nădejdea în Dumnezeu ne întărește în misiunea de a aduce alinare, încurajare și sprijin sufletesc celor aflați în suferință." },
 ];
 
 export default function CineSuntemPage() {
@@ -118,7 +118,7 @@ export default function CineSuntemPage() {
               <span className="w-8 h-px bg-gold" /> Valorile noastre <span className="w-8 h-px bg-gold" />
             </span>
             <h2 className="text-3xl md:text-[40px] font-semibold text-ink">
-              Dumnezeu lucrează prin noi
+              Credință și slujire față de aproapele
             </h2>
             <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5 text-left">
               {values.map((v) => (
@@ -158,8 +158,9 @@ export default function CineSuntemPage() {
                 <h3 className="text-lg font-semibold text-ink">Pr. Ioan Alexandru Ivan</h3>
                 <p className="text-sm text-gold font-semibold mt-1">Președintele Asociației</p>
                 <p className="text-sm text-ink/60 leading-relaxed mt-4">
-                  Preot de caritate, fondatorul lucrării de la Luxab. Conduce
-                  proiectele și îngrijirea duhovnicească a vârstnicilor.
+                  Fondator și coordonator al celor două capele Luxab. Se ocupă
+                  de organizarea evenimentelor, coordonarea activităților și
+                  dezvoltarea proiectelor dedicate comunității.
                 </p>
               </div>
               <div className="bg-white border border-[#E8E2D8] rounded-2xl p-8">
@@ -175,9 +176,9 @@ export default function CineSuntemPage() {
                 <h3 className="text-lg font-semibold text-ink">Pr. Damaschin Corneliu</h3>
                 <p className="text-sm text-gold font-semibold mt-1">Preot · Slujitor al capelei</p>
                 <p className="text-sm text-ink/60 leading-relaxed mt-4">
-                  Preot de caritate, responsabil cu tot ceea ce se întâmplă la
-                  cămin. Conduce proiectele și îngrijirea duhovnicească a
-                  vârstnicilor din Luxab.
+                  Preot slujitor în cadrul capelei Luxab, oferă asistență
+                  duhovnicească prin săvârșirea slujbelor, spovedanie și
+                  împărtășirea credincioșilor.
                 </p>
               </div>
               <div className="bg-white border border-[#E8E2D8] rounded-2xl p-8">
@@ -193,9 +194,9 @@ export default function CineSuntemPage() {
                 <h3 className="text-lg font-semibold text-ink">Diac. Sandu Teodor Marian</h3>
                 <p className="text-sm text-gold font-semibold mt-1">Diacon · Slujitor al capelei</p>
                 <p className="text-sm text-ink/60 leading-relaxed mt-4">
-                  Diacon al capelei Luxab, alături de vârstnici și de copiii
-                  care vin în vizită — în slujbe, proiecte și în viața de zi cu
-                  zi a comunității.
+                  Contribuie la inițierea și organizarea evenimentelor, sprijină
+                  activitățile centrelor și se implică în coordonarea grupului
+                  psaltic al Asociației.
                 </p>
               </div>
             </div>

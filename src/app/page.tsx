@@ -12,7 +12,7 @@ const pillars = [
     icon: Church,
     title: "Viață spirituală",
     description:
-      "Slujbe și Taina Sfântului Maslu pentru vârstnicii din Luxab, cercuri pastorale ale preoților de caritate și hramul capelei, la 30 august.",
+      "În cele două capele sunt săvârșite Sfânta Liturghie, Taina Sfântului Maslu și alte slujbe bisericești, oferind persoanelor vârstnice sprijin duhovnicesc, mângâiere și prilej de rugăciune.",
     href: "/viata-spirituala",
     cta: "Viață spirituală",
   },
@@ -26,9 +26,9 @@ const pillars = [
   },
   {
     icon: Backpack,
-    title: "Copii defavorizați",
+    title: "Sprijin pentru copii și familii",
     description:
-      "Proiectul „Educația: cheia spre viitor” și daruri concrete pentru copiii din familii vulnerabile ale Sectorului 1.",
+      "Prin proiecte educaționale și acțiuni filantropice, venim în sprijinul copiilor și familiilor aflate în situații de vulnerabilitate, oferind ajutor material, susținere și încurajare.",
     href: "/proiecte",
     cta: "Proiectele noastre",
   },
@@ -146,27 +146,14 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ============ TRUST BAR ============ */}
-        <div className="bg-ink text-[#CFC9BD]">
-          <div className="max-w-7xl mx-auto flex flex-wrap">
-            {[
-              ["✦", "Cu binecuvântarea Patriarhiei", "Sub obârșia duhovnicească a Arhiepiscopiei Bucureștilor"],
-              ["✚", "Moaștele Sf. Alexandru", "Fragment primit în dar de la Catedrala Episcopală din Alexandria"],
-              ["❋", "Nimeni nu trece singur", "Prin încercări — misiunea preoților de caritate"],
-            ].map(([ico, t, s], i) => (
-              <div
-                key={t}
-                className={`flex-1 min-w-[260px] px-6 py-6 flex gap-4 items-start ${
-                  i > 0 ? "border-l border-white/10" : ""
-                }`}
-              >
-                <span className="text-gold-light text-xl leading-snug">{ico}</span>
-                <div>
-                  <strong className="block text-white text-sm font-heading font-semibold">{t}</strong>
-                  <span className="text-[13px]">{s}</span>
-                </div>
-              </div>
-            ))}
+        {/* ============ BINECUVÂNTARE ============ */}
+        <div className="bg-ink">
+          <div className="max-w-7xl mx-auto px-6 py-7 flex items-center justify-center gap-6 text-center">
+            <span className="font-serif text-4xl text-gold-light leading-none select-none">†</span>
+            <p className="font-heading font-semibold text-white text-[15px] md:text-base leading-snug">
+              Cu binecuvântarea Preafericitului Părinte Daniel,{" "}
+              <span className="uppercase tracking-wide text-gold-light">Patriarhul Bisericii Ortodoxe Române</span>
+            </p>
           </div>
         </div>
 
@@ -175,11 +162,12 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto px-6 text-center">
             <Label>Ce facem</Label>
             <h2 className="text-3xl md:text-[42px] font-semibold text-ink leading-tight">
-              Trei direcții, o singură misiune
+              Slujire pentru cei aflați în nevoie
             </h2>
             <p className="mt-4 max-w-2xl mx-auto text-ink/60 text-[17px] leading-relaxed">
-              Din capela de la Luxab, lucrarea noastră se revarsă spre toți cei
-              care au nevoie — vârstnici, copii și suflete în căutare de alinare.
+              În cele două capele, lucrarea noastră se împlinește prin
+              rugăciune, îngrijire și fapte de milostenie, alături de persoanele
+              aflate în îngrijirea noastră.
             </p>
             <div className="mt-14 grid md:grid-cols-3 gap-6 text-left">
               {pillars.map((p, i) => (

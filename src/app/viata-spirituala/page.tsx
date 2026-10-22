@@ -15,15 +15,15 @@ export const metadata: Metadata = {
 const relics = [
   {
     name: "Moaștele Sf. Ierarh Alexandru",
-    text: "Primite în dar la 16 ianuarie 2022 de la Catedrala Episcopală din Alexandria, prin bunăvoința PS Galaction, Episcopul Alexandriei și Teleormanului, cu binecuvântarea Preafericitului Părinte Patriarh Daniel.",
+    text: "Sfântul Ierarh Alexandru, ocrotitor al capelei, este cinstit ca apărător al dreptei credințe și mărturisitor al adevărului. Părțicele din sfintele sale moaște sunt păstrate în capelă spre închinarea beneficiarilor.",
   },
   {
     name: "Moaștele Sf. Pantelimon",
-    text: "Marele tămăduitor — ocrotitor al bolnavilor, apropiat misiunii noastre față de vârstnicii din Luxab.",
+    text: "Părțicele din moaștele Sfântului Mare Mucenic și Tămăduitor Pantelimon, păstrate în capelă spre cinstire și închinare.",
   },
   {
     name: "Veșmânt al Sf. Cuvioase Parascheva",
-    text: "Particică din vesmântul Sfintei, primită de la Iași — legătura capelei cu cea mai iubită ocrotitoare a românilor.",
+    text: "Veșmântul Sfintei Cuvioase Parascheva, primit de la Iași și păstrat în capelă spre cinstirea ocrotitoarei Moldovei.",
   },
 ];
 
@@ -31,22 +31,29 @@ const services = [
   {
     icon: Church,
     title: "Sfânta Liturghie",
-    text: "Slujbe regulate în capela căminului, cu participarea rezidenților și a enoriașilor din comunitate.",
+    text: "Sfânta Liturghie este săvârșită în cele două capele, în duminici și sărbători, precum și sâmbăta, cu participarea persoanelor vârstnice, a personalului și a credincioșilor prezenți.",
   },
   {
     icon: Sparkles,
     title: "Taina Sfântului Maslu",
-    text: "Săvârșită pentru vârstnici — inclusiv în camere, pentru cei imobilizați — de soborul preoților de caritate.",
+    text: "Taina Sfântului Maslu este săvârșită pentru persoanele vârstnice și bolnave, inclusiv la căpătâiul celor care nu se pot deplasa.",
   },
   {
     icon: Users,
-    title: "Cercul pastoral",
-    text: "Capela găzduiește sesiunile Cercului pastoral al preoților de caritate din Sectorul 1 al Capitalei.",
+    title: "Cercuri pastorale și evenimente duhovnicești",
+    text: "Centrele luxab găzduiesc deseori conferințe organizate în cadrul cercurilor pastorale ale preoților de caritate precum și alte evenimente socio-culturale.",
   },
   {
     icon: CalendarDays,
-    title: "Hramul — 30 august",
-    text: "Vecernie cu Litie și Utrenie în ajun, Acatist și Liturghie în ziua hramului, cu Corala Academică „Divina Armonie”.",
+    title: "Hramurile capelelor",
+    dates: [
+      "27 iulie — Sf. Pantelimon",
+      "30 august — Sf. Alexandru",
+      "14 octombrie — Sf. Parascheva",
+      "3 mai — Sf. Irodion de la Lainici",
+      "29 iunie — Sf. Ap. Petru și Pavel",
+    ],
+    text: "Hramurile celor două capele sunt sărbătorite anual printr-un bogat program liturgic și filantropic, care cuprinde slujbe de priveghere, Sfânta Liturghie și activități dedicate persoanelor vârstnice din cadrul centrelor.",
   },
 ];
 
@@ -89,8 +96,13 @@ export default function ViataSpiritualaPage() {
                 <span className="w-8 h-px bg-gold" /> Relicvele capelei <span className="w-8 h-px bg-gold" />
               </span>
               <h2 className="text-3xl md:text-[40px] font-semibold text-ink">
-                Trei daruri sfinte sub același acoperiș
+                Sfinte odoare în patrimoniul capelei
               </h2>
+              <p className="mt-4 text-ink/60 max-w-2xl mx-auto">
+                Moaștele Sf. Ierarh Alexandru și ale Sf. Cuvioase Parascheva de
+                la Iași, alături de moaștele Sf. Pantelimon — trei daruri sfinte
+                sub același acoperiș.
+              </p>
             </div>
             <div className="mt-12 grid md:grid-cols-3 gap-6">
               {relics.map((r) => (
@@ -112,7 +124,7 @@ export default function ViataSpiritualaPage() {
                 <span className="w-8 h-px bg-gold" /> Slujirea <span className="w-8 h-px bg-gold" />
               </span>
               <h2 className="text-3xl md:text-[40px] font-semibold text-ink">
-                Duhovnicie în acțiune
+                Viața liturgică și activitatea pastorală
               </h2>
             </div>
             <div className="mt-12 grid sm:grid-cols-2 gap-6">
@@ -123,6 +135,13 @@ export default function ViataSpiritualaPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-ink mb-1.5">{s.title}</h3>
+                    {"dates" in s && s.dates && (
+                      <ul className="text-[13px] text-gold font-semibold space-y-0.5 mb-2">
+                        {s.dates.map((d) => (
+                          <li key={d}>{d}</li>
+                        ))}
+                      </ul>
+                    )}
                     <p className="text-sm text-ink/60 leading-relaxed">{s.text}</p>
                   </div>
                 </div>
